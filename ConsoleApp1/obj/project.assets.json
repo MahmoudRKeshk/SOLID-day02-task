@@ -1,0 +1,214 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Autofac/2.2.4.900": {
+        "type": "package",
+        "compile": {
+          "lib/NET40/Autofac.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/NET40/Autofac.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "SimpleInjector/1.2.0.11273": {
+        "type": "package",
+        "compile": {
+          "lib/net35/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net35/SimpleInjector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/9.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/System.ComponentModel.Composition.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/System.ComponentModel.Composition.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/2.2.4.900": {
+      "sha512": "erfIUmId+CQ/QmWTXeHPjILb62aNeuX9Hsp6T3IUtdDPG+PxkWHH6J9MxHlGrexUlS6lQ4iP+WuaVoI06HWE5g==",
+      "type": "package",
+      "path": "autofac/2.2.4.900",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.2.2.4.900.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/NET40/Autofac.XML",
+        "lib/NET40/Autofac.dll"
+      ]
+    },
+    "SimpleInjector/1.2.0.11273": {
+      "sha512": "U2uTA0h8IkH5DgX5M9bh+u52oYmnANzLuwm20Dq9im68c0L8wBERfP46t5tXkF9WuqsvsZ1YS8SnXWvWvIRrUw==",
+      "type": "package",
+      "path": "simpleinjector/1.2.0.11273",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/SimpleInjector.dll",
+        "lib/net35/SimpleInjector.xml",
+        "simpleinjector.1.2.0.11273.nupkg.sha512",
+        "simpleinjector.nuspec"
+      ]
+    },
+    "System.ComponentModel.Composition/9.0.4": {
+      "sha512": "8iLE2dR3kQuj8vOQFBIGXwSb9oDCwlbO6YskpS3nbxb58xtombuqmILuw1u3GNWREOiQa9VleGBQh7hgU9Gc2w==",
+      "type": "package",
+      "path": "system.componentmodel.composition/9.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.ComponentModel.Composition.targets",
+        "lib/net462/_._",
+        "lib/net8.0/System.ComponentModel.Composition.dll",
+        "lib/net8.0/System.ComponentModel.Composition.xml",
+        "lib/net9.0/System.ComponentModel.Composition.dll",
+        "lib/net9.0/System.ComponentModel.Composition.xml",
+        "lib/netstandard2.0/System.ComponentModel.Composition.dll",
+        "lib/netstandard2.0/System.ComponentModel.Composition.xml",
+        "system.componentmodel.composition.9.0.4.nupkg.sha512",
+        "system.componentmodel.composition.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Autofac >= 2.2.4.900",
+      "SimpleInjector >= 1.2.0.11273",
+      "System.ComponentModel.Composition >= 9.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\minam\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\IDA\\28 SOLID\\D02\\Lab\\Lab2\\Task3\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "D:\\IDA\\28 SOLID\\D02\\Lab\\Lab2\\Task3\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\minam\\.nuget\\packages\\",
+      "outputPath": "D:\\IDA\\28 SOLID\\D02\\Lab\\Lab2\\Task3\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\minam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\IDA\\17 Entity Framework\\Labs\\Day6\\HotelSystemD\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[2.2.4.900, )"
+          },
+          "SimpleInjector": {
+            "target": "Package",
+            "version": "[1.2.0.11273, )"
+          },
+          "System.ComponentModel.Composition": {
+            "target": "Package",
+            "version": "[9.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autofac 2.2.4.900' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SimpleInjector 1.2.0.11273' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "SimpleInjector",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

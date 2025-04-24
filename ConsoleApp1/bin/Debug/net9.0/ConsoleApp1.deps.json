@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "Autofac": "2.2.4.900",
+          "SimpleInjector": "1.2.0.11273",
+          "System.ComponentModel.Composition": "9.0.4"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "Autofac/2.2.4.900": {
+        "runtime": {
+          "lib/NET40/Autofac.dll": {
+            "assemblyVersion": "2.2.4.900",
+            "fileVersion": "2.2.4.900"
+          }
+        }
+      },
+      "SimpleInjector/1.2.0.11273": {
+        "runtime": {
+          "lib/net35/SimpleInjector.dll": {
+            "assemblyVersion": "1.2.0.11273",
+            "fileVersion": "1.2.0.11273"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/9.0.4": {
+        "runtime": {
+          "lib/net9.0/System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "9.0.0.4",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/2.2.4.900": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erfIUmId+CQ/QmWTXeHPjILb62aNeuX9Hsp6T3IUtdDPG+PxkWHH6J9MxHlGrexUlS6lQ4iP+WuaVoI06HWE5g==",
+      "path": "autofac/2.2.4.900",
+      "hashPath": "autofac.2.2.4.900.nupkg.sha512"
+    },
+    "SimpleInjector/1.2.0.11273": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U2uTA0h8IkH5DgX5M9bh+u52oYmnANzLuwm20Dq9im68c0L8wBERfP46t5tXkF9WuqsvsZ1YS8SnXWvWvIRrUw==",
+      "path": "simpleinjector/1.2.0.11273",
+      "hashPath": "simpleinjector.1.2.0.11273.nupkg.sha512"
+    },
+    "System.ComponentModel.Composition/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8iLE2dR3kQuj8vOQFBIGXwSb9oDCwlbO6YskpS3nbxb58xtombuqmILuw1u3GNWREOiQa9VleGBQh7hgU9Gc2w==",
+      "path": "system.componentmodel.composition/9.0.4",
+      "hashPath": "system.componentmodel.composition.9.0.4.nupkg.sha512"
+    }
+  }
+}
